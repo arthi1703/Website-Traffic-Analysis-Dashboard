@@ -1,86 +1,88 @@
-📊 Website Traffic Analysis Dashboard — Power BI Project
+# 📊 Website Traffic Analysis Dashboard — Power BI Project
+---
 
-⭐ Project Overview
+## ⭐ Project Overview
+---
 
-This project focuses on analyzing website traffic patterns, user engagement, and marketing effectiveness through an interactive Power BI Dashboard.
+This project focuses on analyzing website traffic patterns, user engagement, and marketing effectiveness through an interactive **Power BI Dashboard**.
 
 The dashboard provides insights on:
 
-🚦 Traffic trends over time
+- 🚦 Traffic trends over time  
+- 👥 New vs Returning Users  
+- 📱 Device usage distribution  
+- 🌍 Geographic visitor performance  
+- 📈 Conversion & revenue metrics  
+- 🔗 Marketing channel performance  
 
-👥 New vs Returning Users
+---
 
-📱 Device usage distribution
+## 📁 Files Included
+---
 
-🌍 Geographic visitor performance
+| File Name | Description |
+|----------|-------------|
+| `web_marketing_data.csv` | Raw dataset from Kaggle |
+| `website_traffic_cleaned.xlsx` | Cleaned dataset |
+| `website_traffic_analysis.pbix` | Power BI dashboard |
+| `Website_Traffic_Project_Report.pdf` | Full project report |
+| `README.md` | Documentation |
 
-📈 Conversion & revenue metrics
+---
 
-🔗 Marketing channel performance
+## 🎯 Project Objective
+---
 
-📁 Files Included
-File Name	Description
-web_marketing_data.xlsx / .csv	Raw dataset from Kaggle
-website_traffic_cleaned.xlsx	Cleaned dataset for dashboard
-website_traffic_analysis.pbix	Power BI dashboard
-Website_Traffic_Project_Report.pdf	Full project documentation
-README.md	GitHub documentation
+This dashboard helps to:
 
-🎯 Project Objective
+- Track sessions & user activity  
+- Understand website traffic trends  
+- Measure user engagement  
+- Analyze conversions & revenue  
+- Evaluate marketing channel performance  
 
-To build a detailed website traffic analysis dashboard that helps:
+---
 
-Track sessions & user activity
+## 📂 Dataset Description
+---
 
-Understand daily traffic trends
+📌 **Source:** Kaggle – *Web Marketing Campaign Performance Dataset*  
+📌 **Each row = one website session**
 
-Measure user engagement
+### Key Columns
 
-Analyze conversions & revenue
+- `user_id`  
+- `new_user`  
+- `page_views`  
+- `session_duration_seconds`  
+- `device_type`  
+- `country`  
+- `source` (Direct, Organic, Referral, Social)  
+- `conversions`  
+- `revenue`  
+- `date`  
 
-Evaluate marketing source performance
+### Dataset Used
 
-📂 Dataset Description
+web_marketing_data.csv
 
-📌 Source: Kaggle – Web Marketing Campaign Performance Analysis Dataset
-📌 Each row = one website session
+---
 
-Key Columns:
+## 🧹 Data Cleaning & Preparation
+---
 
-user_id
+- ✔ Removed duplicates  
+- ✔ Handled missing values  
+- ✔ Converted date into proper format  
+- ✔ Standardized numeric columns  
+- ✔ Verified binary values (`new_user`, `conversions`)  
+- ✔ Cleaned device_type & source categories  
+- ✔ Exported cleaned dataset  
 
-new_user
+---
 
-page_views
-
-session_duration_seconds
-
-device_type
-
-country
-
-source (Direct, Organic, Social, Referral)
-
-conversions
-
-revenue
-
-date
-
-👉 Dataset Link:
-[🔗 Click Here to Access Dataset]https://github.com/arthi1703/Website-Traffic-Analysis-Dashboard/blob/main/web_marketing_data.csv
-
-🧹 Data Cleaning & Preparation
-
-✔ Removed duplicates
-✔ Managed missing values
-✔ Converted date column
-✔ Normalized numeric fields
-✔ Ensured correct device/source categories
-✔ Verified binary values
-✔ Exported cleaned dataset
-
-🧮 DAX Measures Used
+## 🧮 DAX Measures Used
+---
 Total Sessions = COUNTROWS('web_marketing_data')
 
 Total Users = DISTINCTCOUNT('web_marketing_data'[user_id])
@@ -93,90 +95,89 @@ Total Page Views = SUM('web_marketing_data'[page_views])
 
 Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
 
+Total Conversions = SUM('web_marketing_data'[conversions])
+
 Conversion Rate = DIVIDE([Total Conversions], [Total Sessions])
 
 
-Additional Measures:
+### Additional Measures
+- Page Views per Session  
+- Avg Session Duration (Minutes)  
+- Sessions by Device  
+- Revenue per User  
+- Total Revenue  
+- Users by Country  
 
-Page Views per Session
+---
 
-Average Session Duration (Minutes)
+## 📊 Dashboard Visuals
+---
 
-Revenue per User
+### 🟦 1️⃣ KPI Cards
+- Total Users  
+- New Users  
+- Total Page Views  
+- Average Duration  
+- Conversion Rate  
 
-Total Revenue
+### 📈 2️⃣ Line Chart  
+Website traffic trend over time  
 
-Sessions by Device
+### 🎯 3️⃣ Scatter Plot  
+Page Views vs Session Duration  
 
-Users by Country
+### 🍩 4️⃣ Donut Chart  
+Device Type (Mobile, Desktop, Tablet)  
 
-📊 Dashboard Visuals
-🟦 1️⃣ KPI Cards
+### 📉 5️⃣ Area Chart  
+Traffic Source Distribution  
 
-Total Users
+### 🗺️ 6️⃣ Map Visualization  
+Top Visitor Countries  
 
-New Users
+---
 
-Page Views
+## 🖼️ Dashboard Screenshot
+---
 
-Avg Duration
-
-Conversion Rate
-
-📈 2️⃣ Line Chart
-
-Website Traffic trend over time
-
-🎯 3️⃣ Scatter Plot
-
-Page Views vs Session Duration
-
-🍩 4️⃣ Donut Chart
-
-Visitors Divices
-
-📉 5️⃣ Area Chart
-
-Traffic Origin
-
-🗺️ 6️⃣ Map
-
-Top Visitors Country
-
-🖼️ Dashboard Screenshot
-
-<img width="1323" height="739" alt="website_traffic_analysis_screenshot" src="https://github.com/user-attachments/assets/7d5ea953-9b48-4de4-bf39-26ff94e8f9f0" />
+<img width="1323" height="739" alt="website_traffic_analysis_screenshot" src="https://github.com/user-attachments/assets/334bfda0-c919-4b3a-acd9-c691ae9edcae" />
 
 
-📈 Insights
+(Replace with your actual screenshot path)
 
-Mobile accounts for the highest user traffic
+---
 
-Direct & Organic sources bring the most visitors
+## 📈 Insights
+---
 
-Traffic peaks on key campaign days
+- 📱 Mobile users form the highest traffic share  
+- 🔗 Direct & Organic channels are top traffic sources  
+- 📅 Traffic peaks on marketing campaign days  
+- ⏱️ Higher page views → longer session duration  
+- 🌍 US, India, UK, Germany show highest visitors  
+- 🎯 Strong correlation between traffic & conversions  
 
-Higher page views → longer session duration
+---
 
-US, India, UK, Germany lead visitor count
+## 🚀 Conclusion
+---
 
-Conversions reflect strong engagement patterns
+This dashboard helps organizations:
 
-🚀 Conclusion
+- ✔ Identify high-performing traffic channels  
+- ✔ Understand user behavior  
+- ✔ Improve digital marketing performance  
+- ✔ Track conversions & revenue growth  
 
-The dashboard helps stakeholders to:
+---
 
-✔ Identify top-performing traffic channels
-✔ Analyze user behavior
-✔ Improve marketing strategies
-✔ Track conversions & revenue growth
+# ✍️ Author
+---
 
-✍️ Author
-👤 Arthi
+### 👤 Arthi  
+**Data Analyst**
 
-Data Analyst
-
-
+---
 
 
 
