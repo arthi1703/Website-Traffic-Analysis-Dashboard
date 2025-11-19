@@ -83,83 +83,67 @@ Returning Users = [Total Users] - [New Users]
 Total Page Views = SUM('web_marketing_data'[page_views])
 
 Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
-Additional Measures
 
-Page Views per Session
+### Additional Measures
+- Page Views per Session  
+- Average Session Duration (Minutes)  
+- Revenue per User  
+- Total Revenue  
+- Sessions by Device  
+- Users by Country  
 
-Average Session Duration (Minutes)
+---
 
-Revenue per User
+## 📊 Dashboard Visuals
 
-Total Revenue
+### 🟦 KPI Cards
+- Total Users  
+- New Users  
+- Page Views  
+- Avg Session Duration  
+- Conversion Rate  
 
-Sessions by Device
+### 📈 Line Chart
+- Daily traffic trends  
 
-Users by Country
+### 🎯 Scatter Plot
+- Page Views vs Session Duration  
 
-📊 Dashboard Visuals
-🟦 KPI Cards
+### 🍩 Donut Chart
+- Device usage distribution  
 
-Total Users
+### 📉 Area Chart
+- Traffic source comparison  
 
-New Users
+### 🗺️ Map
+- Visitors by country  
 
-Page Views
+---
 
-Avg Session Duration
+## 📈 Insights
+- Mobile devices drive the majority of traffic  
+- Direct & Organic channels bring maximum visitors  
+- Traffic peaks align with campaign activity  
+- Higher page views → longer session duration  
+- India, USA, UK & Germany contribute the most traffic  
+- Conversion patterns show strong engagement  
 
-Conversion Rate
+---
 
-📈 Line Chart
+## 🚀 Conclusion
+This dashboard supports:
 
-Website traffic trend over time
+- ✔ Tracking of traffic & marketing performance  
+- ✔ Better user engagement analysis  
+- ✔ Optimized decision-making for campaigns  
+- ✔ Monitoring revenue & conversions confidently  
 
-🎯 Scatter Plot
+---
 
-Page Views vs Session Duration
+## ✍️ Author
+**👤 Arthi**  
+_Data Analyst & Java Developer_  
 
-🍩 Donut Chart
 
-Visitor devices distribution
 
-📉 Area Chart
-
-Traffic sources (Direct, Organic, Social, Referral)
-
-🗺️ Map
-
-Countries by visitor count
-
-📈 Insights
-
-Mobile devices produce the highest traffic
-
-Direct and Organic channels perform best
-
-Campaign days show traffic peaks
-
-More page views → longer session duration
-
-US, India, UK, and Germany lead in visitor volume
-
-Strong conversion trends show high user engagement
-
-🚀 Conclusion
-
-This dashboard allows stakeholders to:
-
-✔ Identify top-performing traffic sources
-
-✔ Understand user behavior patterns
-
-✔ Improve marketing decisions
-
-✔ Track conversions & revenue efficiently
-
-✍️ Author
-
-👤 Arthi
-Data Analyst & Java Developer
-
-Conversion Rate = DIVIDE([Total Conversions], [Total Sessions])
 
