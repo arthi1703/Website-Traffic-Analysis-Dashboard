@@ -12,12 +12,6 @@ The dashboard provides insights on:
 - 📈 Conversion & revenue metrics  
 - 🔗 Marketing channel performance  
 
-## 🏆 Badges  
-![Status](https://img.shields.io/badge/Project%20Status-Completed-brightgreen)
-![Power BI](https://img.shields.io/badge/Tool-Power%20BI-yellow)
-![Data Cleaning](https://img.shields.io/badge/Data%20Cleaning-Complete-blue)
-![Author](https://img.shields.io/badge/Author-Arthi-purple)
-
 ## 📁 Files Included
 
 | File Name                         | Description                          |
@@ -31,11 +25,11 @@ The dashboard provides insights on:
 ## 🎯 Project Objective
 To build a website traffic analysis dashboard that helps:
 
-- ✔ Track sessions & user activity  
-- ✔ Understand daily traffic trends  
-- ✔ Measure user engagement  
-- ✔ Analyze conversions & revenue  
-- ✔ Evaluate marketing source performance  
+ ✔ Track sessions & user activity  
+ ✔ Understand daily traffic trends  
+ ✔ Measure user engagement  
+ ✔ Analyze conversions & revenue  
+ ✔ Evaluate marketing source performance  
 
 ## 📂 Dataset Description
 
@@ -61,13 +55,13 @@ https://github.com/arthi1703/Website-Traffic-Analysis-Dashboard/blob/main/web_ma
 
 Performed cleaning tasks:
 
-- ✔ Removed duplicates  
-- ✔ Managed missing values  
-- ✔ Converted and formatted date column  
-- ✔ Normalized numeric fields  
-- ✔ Verified device and channel categories  
-- ✔ Checked binary values  
-- ✔ Exported cleaned dataset  
+  ✔ Removed duplicates  
+  ✔ Managed missing values  
+  ✔ Converted and formatted date column  
+  ✔ Normalized numeric fields  
+  ✔ Verified device and channel categories  
+  ✔ Checked binary values  
+  ✔ Exported cleaned dataset  
 
 ## 🧮 DAX Measures Used
 
@@ -118,6 +112,10 @@ Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
 - Visitors by country  
 
 ---
+## 🖼️ Dashboard Screenshot
+<img width="1323" height="739" alt="website_traffic_analysis_screenshot" src="https://github.com/user-attachments/assets/4ee0f9ea-a4a6-4120-8f47-9e5097a63d2f" />
+
+---
 
 ## 📈 Insights
 - Mobile devices drive the majority of traffic  
@@ -132,16 +130,17 @@ Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
 ## 🚀 Conclusion
 This dashboard supports:
 
-- ✔ Tracking of traffic & marketing performance  
-- ✔ Better user engagement analysis  
-- ✔ Optimized decision-making for campaigns  
-- ✔ Monitoring revenue & conversions confidently  
+  ✔ Tracking of traffic & marketing performance  
+  ✔ Better user engagement analysis  
+  ✔ Optimized decision-making for campaigns  
+  ✔ Monitoring revenue & conversions confidently  
 
 ---
 
 ## ✍️ Author
 **👤 Arthi**  
-_Data Analyst & Java Developer_  
+_Data Analyst_  
+
 
 
 
