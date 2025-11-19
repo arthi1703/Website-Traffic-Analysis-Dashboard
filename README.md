@@ -1,39 +1,51 @@
-📊 Website Traffic Analysis Dashboard — Power BI Project
+<img width="1323" height="739" alt="website_traffic_analysis_screenshot" src="https://github.com/user-attachments/assets/19598e34-012a-4327-bcf2-db57642f2fc1" />📊 Website Traffic Analysis Dashboard — Power BI Project
 
-📌 Project Overview
+⭐ Project Overview
 
-This project focuses on analyzing website traffic patterns, user engagement, and marketing performance using an interactive Power BI dashboard. The dashboard visualizes real-time insights such as traffic trends, user behavior, device usage, conversion metrics, and geographic distribution of visitors.
+This project focuses on analyzing website traffic patterns, user engagement, and marketing effectiveness through an interactive Power BI Dashboard.
 
-The analysis helps understand:
+The dashboard provides insights on:
 
-Which channels bring maximum traffic
+🚦 Traffic trends over time
 
-How users interact with the website
+👥 New vs Returning Users
 
-Conversion performance across traffic sources
+📱 Device usage distribution
 
-Device and country distribution of visitors
+🌍 Geographic visitor performance
 
-Day-wise session behavior and duration
+📈 Conversion & revenue metrics
+
+🔗 Marketing channel performance
 
 📁 Files Included
-File	Description
-web_marketing_data.xlsx / csv	Raw dataset collected from Kaggle
-website_traffic_cleaned.xlsx	Cleaned & preprocessed dataset used for dashboard
-website_traffic_analysis.pbix	Power BI dashboard file
-Website_Traffic_Project_Report.pdf	Project report including objectives, dataset description, cleaning steps, dashboard design & insights
-README.md	Documentation for GitHub
+File Name	Description
+web_marketing_data.xlsx / .csv	Raw dataset from Kaggle
+website_traffic_cleaned.xlsx	Cleaned dataset for dashboard
+website_traffic_analysis.pbix	Power BI dashboard
+Website_Traffic_Project_Report.pdf	Full project documentation
+README.md	GitHub documentation
 
 🎯 Project Objective
 
-To build a data-driven website traffic analysis dashboard that helps track user activity, identify marketing channel performance, observe traffic trends, and measure conversions using Power BI.
+To build a detailed website traffic analysis dashboard that helps:
+
+Track sessions & user activity
+
+Understand daily traffic trends
+
+Measure user engagement
+
+Analyze conversions & revenue
+
+Evaluate marketing source performance
 
 📂 Dataset Description
 
-The dataset was sourced from Kaggle:
-“Web Marketing Campaign Performance Analysis Dataset”
+📌 Source: Kaggle – Web Marketing Campaign Performance Analysis Dataset
+📌 Each row = one website session
 
-Key columns include:
+Key Columns:
 
 user_id
 
@@ -55,39 +67,25 @@ revenue
 
 date
 
-Each row represents one website session.
-
-🔧 Tools Used
-
-Power BI Desktop – Dashboard creation
-
-Excel – Data cleaning and preprocessing
-
-Python (optional) – Additional formatting/processing
-
-Kaggle Dataset – Data source
+👉 Dataset Link:
+[🔗 Click Here to Access Dataset]https://github.com/arthi1703/Website-Traffic-Analysis-Dashboard/blob/main/web_marketing_data.csv
 
 🧹 Data Cleaning & Preparation
 
-The following steps were applied during cleaning:
-
 ✔ Removed duplicates
-✔ Checked and handled missing values
-✔ Converted date column into proper date format
-✔ Normalized numerical columns (session duration, page views)
-✔ Ensured new_user & conversions were binary values
-✔ Validated device_type, country, traffic source categories
-✔ Exported cleaned dataset as Excel file
+✔ Managed missing values
+✔ Converted date column
+✔ Normalized numeric fields
+✔ Ensured correct device/source categories
+✔ Verified binary values
+✔ Exported cleaned dataset
 
 🧮 DAX Measures Used
-
-Some key measures used in the dashboard:
-
 Total Sessions = COUNTROWS('web_marketing_data')
 
 Total Users = DISTINCTCOUNT('web_marketing_data'[user_id])
 
-New Users = CALCULATE(SUM('web_marketing_data'[new_user]))
+New Users = SUM('web_marketing_data'[new_user])
 
 Returning Users = [Total Users] - [New Users]
 
@@ -97,83 +95,87 @@ Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
 
 Conversion Rate = DIVIDE([Total Conversions], [Total Sessions])
 
-Total Conversions = SUM('web_marketing_data'[conversions])
 
-
-Additional measures included:
-
-Average Session Duration(Minutes)
-
-Sessions by Device
+Additional Measures:
 
 Page Views per Session
 
-Revenue per Session
+Average Session Duration (Minutes)
 
 Revenue per User
 
 Total Revenue
 
+Sessions by Device
+
 Users by Country
 
 📊 Dashboard Visuals
-
-The Power BI dashboard includes:
-
-1️⃣ KPI Cards
+🟦 1️⃣ KPI Cards
 
 Total Users
 
 New Users
 
-Total Page Views
+Page Views
 
-Page Views per Session
-
-Avg Session Duration
+Avg Duration
 
 Conversion Rate
 
-2️⃣ Line Chart
+📈 2️⃣ Line Chart
 
-Website Traffic Trend Over Time (Daily Sessions)
+Website Traffic trend over time
 
-3️⃣ Scatter Plot
+🎯 3️⃣ Scatter Plot
 
 Page Views vs Session Duration
 
-4️⃣ Donut Chart
+🍩 4️⃣ Donut Chart
 
-Visitors Divices (Mobile / Tablet / Desktop)
+Visitors Divices
 
-5️⃣ Area Chart
+📉 5️⃣ Area Chart
 
-Traffic Origin (Direct, Organic, Social, Referral)
+Traffic Origin
 
-6️⃣ Map Visualization
+🗺️ 6️⃣ Map
 
-Top Visitors Country (India, USA, UK, Germany, Australia, Canada)
+Top Visitors Country
 
-📈 Insights & Observations
+🖼️ Dashboard Screenshot
 
-Majority of users accessed via Mobile devices
+<img width="1323" height="739" alt="website_traffic_analysis_screenshot" src="https://github.com/user-attachments/assets/7d5ea953-9b48-4de4-bf39-26ff94e8f9f0" />
 
-Traffic peaked around specific days, showing campaign activity
 
-Direct and Organic channels drove the highest traffic
+📈 Insights
 
-USA, India, UK, and Germany contributed highest visitor numbers
+Mobile accounts for the highest user traffic
 
-Higher page views correlated with higher session duration
+Direct & Organic sources bring the most visitors
 
-Conversion rate indicates user engagement performance
+Traffic peaks on key campaign days
+
+Higher page views → longer session duration
+
+US, India, UK, Germany lead visitor count
+
+Conversions reflect strong engagement patterns
 
 🚀 Conclusion
 
-This dashboard provides a complete view of website performance and user interaction.
-Marketers, analysts, and business teams can use it to:
+The dashboard helps stakeholders to:
 
 ✔ Identify top-performing traffic channels
-✔ Improve marketing campaign decisions
-✔ Track user behavior and activity patterns
-✔ Monitor conversion and revenue trends
+✔ Analyze user behavior
+✔ Improve marketing strategies
+✔ Track conversions & revenue growth
+
+✍️ Author
+👤 Arthi
+
+Data Analyst
+
+
+
+
