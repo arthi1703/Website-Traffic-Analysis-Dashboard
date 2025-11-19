@@ -89,7 +89,7 @@ Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
 - Sessions by Device  
 - Users by Country
 
----
+
 
 ## 📊 Dashboard Visuals
 
@@ -115,11 +115,11 @@ Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
 ### 🗺️ Map
 - Visitors by country  
 
----
+
 ## 🖼️ Dashboard Screenshot
 <img width="1323" height="739" alt="website_traffic_analysis_visual" src="https://github.com/user-attachments/assets/92a8016e-b620-47fd-bbcd-dbc4a78e9346" />
 
----
+
 
 ## 📈 Insights
 - Mobile devices drive the majority of traffic  
@@ -129,7 +129,7 @@ Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
 - India, USA, UK & Germany contribute the most traffic  
 - Conversion patterns show strong engagement  
 
----
+
 
 ## 🚀 Conclusion
 This dashboard supports:
@@ -139,11 +139,12 @@ This dashboard supports:
   ✔ Optimized decision-making for campaigns  
   ✔ Monitoring revenue & conversions confidently  
 
----
+
 
 ## ✍️ Author
 **👤 Arthi**  
 _Data Analyst_  
+
 
 
 
