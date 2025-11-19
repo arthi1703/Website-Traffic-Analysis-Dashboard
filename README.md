@@ -71,7 +71,6 @@ Performed cleaning tasks:
 
 ## 🧮 DAX Measures Used
 
-```DAX
 Total Sessions = COUNTROWS('web_marketing_data')
 
 Total Users = DISTINCTCOUNT('web_marketing_data'[user_id])
@@ -143,6 +142,7 @@ This dashboard supports:
 ## ✍️ Author
 **👤 Arthi**  
 _Data Analyst & Java Developer_  
+
 
 
 
