@@ -1,4 +1,3 @@
-<img width="1323" height="739" alt="website_traffic_analysis_screenshot" src="https://github.com/user-attachments/assets/19598e34-012a-4327-bcf2-db57642f2fc1" />📊 Website Traffic Analysis Dashboard — Power BI Project
 
 ⭐ Project Overview
 
@@ -175,6 +174,7 @@ The dashboard helps stakeholders to:
 👤 Arthi
 
 Data Analyst
+
 
 
 
