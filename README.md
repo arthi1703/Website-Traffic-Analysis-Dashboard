@@ -21,6 +21,7 @@ The dashboard provides insights on:
 | website_traffic_analysis.pbix    | Power BI dashboard                   |
 | Website_Traffic_Project_Report.pdf | Full project documentation         |
 | README.md                        | Project documentation                |
+| website_traffic_analysis_visual  | Dashboard Overview Snapshot          |
 
 ## 🎯 Project Objective
 To build a website traffic analysis dashboard that helps:
@@ -78,12 +79,15 @@ Total Page Views = SUM('web_marketing_data'[page_views])
 Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
 
 ### Additional Measures
+- Conversion Rate
+- Total Conversions 
 - Page Views per Session  
-- Average Session Duration (Minutes)  
+- Average Session Duration (Minutes)
+- Revenue per Session 
 - Revenue per User  
 - Total Revenue  
 - Sessions by Device  
-- Users by Country  
+- Users by Country
 
 ---
 
@@ -113,7 +117,7 @@ Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
 
 ---
 ## 🖼️ Dashboard Screenshot
-<img width="1323" height="739" alt="website_traffic_analysis_screenshot" src="https://github.com/user-attachments/assets/4ee0f9ea-a4a6-4120-8f47-9e5097a63d2f" />
+<img width="1323" height="739" alt="website_traffic_analysis_visual" src="https://github.com/user-attachments/assets/92a8016e-b620-47fd-bbcd-dbc4a78e9346" />
 
 ---
 
@@ -140,6 +144,7 @@ This dashboard supports:
 ## ✍️ Author
 **👤 Arthi**  
 _Data Analyst_  
+
 
 
 
