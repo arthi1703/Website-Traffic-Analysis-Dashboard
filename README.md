@@ -135,7 +135,7 @@ Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
 ### 🗺️ Map
 - Visitors by country
 
-### 🟩 Top Performing Campaigns 
+### 🟩 Column Chart
 - Ranks campaigns based on Total Revenue generated.
 
 
@@ -169,6 +169,7 @@ This dashboard supports:
 ## ✍️ Author
 **👤 Arthi**  
 _Data Analyst_  
+
 
 
 
