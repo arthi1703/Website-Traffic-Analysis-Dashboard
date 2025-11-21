@@ -23,6 +23,26 @@ The dashboard provides insights on:
 | README.md                        | Project documentation                |
 | website_traffic_analysis_visual  | Dashboard Overview Snapshot          |
 
+## 🛠️ Tools Used
+
+### 🟦 Power BI Desktop  
+Used to build the complete dashboard — data modeling, visuals, and reporting.
+
+### 🟩 Power Query Editor  
+Used for cleaning, transforming, and shaping the raw CSV dataset.
+
+### 🟨 DAX (Data Analysis Expressions)  
+Used to create KPIs, calculated measures, and advanced metrics.
+
+### 📄 Excel / CSV Dataset  
+Used as the primary data source for website traffic analysis.
+
+### 🎨 Power BI Visualizations  
+Used to design charts such as line, bar, donut, scatter, area, and map visuals.
+
+### 💻 Windows Environment  
+Used for project development, file management, and exporting Power BI files.
+
 ## 🎯 Project Objective
 To build a website traffic analysis dashboard that helps:
 
@@ -113,11 +133,14 @@ Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
 - Traffic source comparison  
 
 ### 🗺️ Map
-- Visitors by country  
+- Visitors by country
+
+### 🟩 Top Performing Campaigns 
+- Ranks campaigns based on Total Revenue generated.
 
 
 ## 🖼️ Dashboard Screenshot
-<img width="1323" height="739" alt="website_traffic_analysis_visual" src="https://github.com/user-attachments/assets/92a8016e-b620-47fd-bbcd-dbc4a78e9346" />
+<img width="1325" height="741" alt="website_traffic_analysis_visual" src="https://github.com/user-attachments/assets/dd36398d-2247-42d6-9e19-e80c23ff209a" />
 
 
 
@@ -127,7 +150,9 @@ Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
 - Traffic peaks align with campaign activity  
 - Higher page views → longer session duration  
 - India, USA, UK & Germany contribute the most traffic  
-- Conversion patterns show strong engagement  
+- Conversion patterns show strong engagement
+- Identifies which campaigns are generating the most revenue.
+- Helps in budget allocation: you can invest more in high-performing campaigns
 
 
 
@@ -144,6 +169,7 @@ This dashboard supports:
 ## ✍️ Author
 **👤 Arthi**  
 _Data Analyst_  
+
 
 
 
