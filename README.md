@@ -5,12 +5,12 @@ This project analyzes website traffic patterns, user engagement, and marketing p
 
 The dashboard provides insights on:
 
-- 🚦 Traffic trends over time  
-- 👥 New vs Returning Users  
-- 📱 Device usage distribution  
-- 🌍 Geographic visitor performance  
-- 📈 Conversion & revenue metrics  
-- 🔗 Marketing channel performance  
+ 🚦 Traffic trends over time  
+ 👥 New vs Returning Users  
+ 📱 Device usage distribution  
+ 🌍 Geographic visitor performance  
+ 📈 Conversion & revenue metrics  
+ 🔗 Marketing channel performance  
 
 ## 📁 Files Included
 
@@ -40,8 +40,6 @@ Used as the primary data source for website traffic analysis.
 ### 🎨 Power BI Visualizations  
 Used to design charts such as line, bar, donut, scatter, area, and map visuals.
 
-### 💻 Windows Environment  
-Used for project development, file management, and exporting Power BI files.
 
 ## 🎯 Project Objective
 To build a website traffic analysis dashboard that helps:
@@ -140,7 +138,7 @@ Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
 
 
 ## 🖼️ Dashboard Screenshot
-<img width="1325" height="741" alt="website_traffic_analysis_visual" src="https://github.com/user-attachments/assets/dd36398d-2247-42d6-9e19-e80c23ff209a" />
+<img width="1324" height="740" alt="website_traffic_analysis_visual " src="https://github.com/user-attachments/assets/9eb50d19-9f01-4ac0-a115-17e2704f8383" />
 
 
 
@@ -169,13 +167,3 @@ This dashboard supports:
 ## ✍️ Author
 **👤 Arthi**  
 _Data Analyst_  
-
-
-
-
-
-
-
-
-
-
