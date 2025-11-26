@@ -145,11 +145,11 @@ Avg Session Duration = AVERAGE('web_marketing_data'[session_duration_seconds])
 ## 📈 Insights
 - Mobile devices drive the majority of traffic  
 - Direct & Organic channels bring maximum visitors  
-- Traffic peaks align with campaign activity  
+- Traffic peaks align with time  
 - Higher page views → longer session duration  
 - India, USA, UK & Germany contribute the most traffic  
-- Conversion patterns show strong engagement
-- Identifies which campaigns are generating the most revenue.
+- Conversion patterns show moderate engagement
+- Identifies which campaigns are generating the most revenue
 - Helps in budget allocation: you can invest more in high-performing campaigns
 
 
@@ -167,3 +167,4 @@ This dashboard supports:
 ## ✍️ Author
 **👤 Arthi**  
 _Data Analyst_  
+
